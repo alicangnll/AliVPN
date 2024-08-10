@@ -1,4 +1,4 @@
-# AliSSH - Secure and Fast SSH VPN Client for Windows<br>
+# AliVPN - Secure and Fast SSH VPN Client for Windows<br>
 
 # Description
 AliVPN is a program that performs a completely secure and encrypted VPN connection with an SSH server. AliVPN is completely open source and does not transfer any of your data to any source.
