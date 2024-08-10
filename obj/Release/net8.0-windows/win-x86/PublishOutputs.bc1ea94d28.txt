@@ -1,2 +1,0 @@
-C:\Users\alica\source\repos\DSSHVPN\DSSHVPN\bin\Release\net8.0-windows\publish\win-x86\DSSHVPN.pdb
-C:\Users\alica\source\repos\DSSHVPN\DSSHVPN\bin\Release\net8.0-windows\publish\win-x86\DSSHVPN.exe
