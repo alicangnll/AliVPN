@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\AliVPN\\DSSHVPN.csproj": {}
+    "C:\\Users\\alica\\source\\repos\\DSSHVPN\\DSSHVPN\\DSSHVPN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\AliVPN\\DSSHVPN.csproj": {
+    "C:\\Users\\alica\\source\\repos\\DSSHVPN\\DSSHVPN\\DSSHVPN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\AliVPN\\DSSHVPN.csproj",
+        "projectUniqueName": "C:\\Users\\alica\\source\\repos\\DSSHVPN\\DSSHVPN\\DSSHVPN.csproj",
         "projectName": "DSSHVPN",
-        "projectPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\AliVPN\\DSSHVPN.csproj",
+        "projectPath": "C:\\Users\\alica\\source\\repos\\DSSHVPN\\DSSHVPN\\DSSHVPN.csproj",
         "packagesPath": "C:\\Users\\alica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alica\\OneDrive\\Belgeler\\GitHub\\AliVPN\\obj\\",
+        "outputPath": "C:\\Users\\alica\\source\\repos\\DSSHVPN\\DSSHVPN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alica\\AppData\\Roaming\\NuGet\\NuGet.Config",

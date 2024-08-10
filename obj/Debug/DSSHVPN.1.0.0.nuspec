@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DSSHVPN</id>
+    <version>1.0.0</version>
+    <authors>DSSHVPN</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Core.Renci.SshNet" version="2021.10.2" exclude="Build,Analyzers" />
+        <dependency id="MaterialSkin.2" version="2.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\alica\source\repos\DSSHVPN\DSSHVPN\bin\Debug\net8.0-windows\DSSHVPN.runtimeconfig.json" target="lib\net8.0-windows7.0\DSSHVPN.runtimeconfig.json" />
+    <file src="C:\Users\alica\source\repos\DSSHVPN\DSSHVPN\bin\Debug\net8.0-windows\DSSHVPN.dll" target="lib\net8.0-windows7.0\DSSHVPN.dll" />
+  </files>
+</package>

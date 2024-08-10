@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             textBox1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
@@ -40,18 +39,8 @@
             materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             label6 = new MaterialSkin.Controls.MaterialLabel();
+            button1 = new Button();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.GreenYellow;
-            button1.Location = new Point(12, 225);
-            button1.Name = "button1";
-            button1.Size = new Size(374, 82);
-            button1.TabIndex = 0;
-            button1.Text = "Connect to VPN";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // textBox1
             // 
@@ -125,7 +114,7 @@
             materialLabel1.AutoSize = true;
             materialLabel1.Depth = 0;
             materialLabel1.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel1.Location = new Point(45, 366);
+            materialLabel1.Location = new Point(30, 364);
             materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel1.Name = "materialLabel1";
             materialLabel1.Size = new Size(313, 19);
@@ -137,7 +126,7 @@
             materialLabel2.AutoSize = true;
             materialLabel2.Depth = 0;
             materialLabel2.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel2.Location = new Point(12, 322);
+            materialLabel2.Location = new Point(30, 322);
             materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel2.Name = "materialLabel2";
             materialLabel2.Size = new Size(178, 19);
@@ -149,18 +138,30 @@
             label6.AutoSize = true;
             label6.Depth = 0;
             label6.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            label6.Location = new Point(196, 322);
+            label6.Location = new Point(214, 322);
             label6.MouseState = MaterialSkin.MouseState.HOVER;
             label6.Name = "label6";
             label6.Size = new Size(23, 19);
             label6.TabIndex = 14;
             label6.Text = "NO";
             // 
+            // button1
+            // 
+            button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button1.BackColor = Color.GreenYellow;
+            button1.Location = new Point(12, 225);
+            button1.Name = "button1";
+            button1.Size = new Size(374, 82);
+            button1.TabIndex = 0;
+            button1.Text = "Connect to VPN";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(392, 388);
+            ClientSize = new Size(400, 408);
             Controls.Add(label6);
             Controls.Add(materialLabel2);
             Controls.Add(materialLabel1);
@@ -173,16 +174,17 @@
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
+            MaximumSize = new Size(400, 408);
+            MinimumSize = new Size(400, 408);
             Name = "Form1";
-            Text = "AliVPN - Fast and Secure SSH VPN";
+            Text = "AliVPN - Fast and Secure VPN";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button1;
         private TextBox textBox1;
         private Label label1;
         private Label label2;
@@ -194,5 +196,6 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel label6;
+        private Button button1;
     }
 }
