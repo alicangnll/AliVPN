@@ -5,6 +5,9 @@ AliVPN is a program that performs a completely secure and encrypted VPN connecti
 <br><br>
 In order to use AliVPN, you must first have an SSH connection with a Linux operating system. You can establish a VPN connection by entering the SSH username and password of your Linux operating system.
 
+# Security
+You can report any bugs, security vulnerabilities or enhancement requests as "Issues".
+
 # Disclaimer
 The information provided in this blog post is intended for educational and informational purposes only. It is not intended to encourage or promote any illegal or unethical activities, including hacking, cyberattacks, or any form of unauthorized access to computer systems, networks, or data.
 <br><br>
